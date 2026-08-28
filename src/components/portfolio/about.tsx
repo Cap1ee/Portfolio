@@ -4,8 +4,7 @@ export default function About() {
   return (
     <section id="about" className="portfolio-section">
       <div
-        className="portfolio-container grid gap-16"
-        style={{ gridTemplateColumns: 'minmax(0, 1fr) minmax(0, 1.4fr)' }}
+        className="portfolio-container grid grid-cols-1 md:grid-cols-[minmax(0,1fr)_minmax(0,1.4fr)] gap-8 md:gap-16"
       >
         <div className="min-w-0">
           <p className="eyebrow">About</p>
