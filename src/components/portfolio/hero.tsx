@@ -52,7 +52,7 @@ export default function Hero() {
           </div>
 
           <div
-            className="flex items-center justify-center"
+            className="flex items-center justify-center overflow-hidden"
             style={{
               aspectRatio: '1',
               width: '100%',
@@ -63,15 +63,16 @@ export default function Hero() {
               border: '1px solid var(--p-line)',
             }}
           >
-            <span
+            <img
+              src="/images/profile.jpg"
+              alt="Lishan Chamod"
               style={{
-                fontFamily: 'var(--font-heading), var(--font-geist-sans), sans-serif',
-                fontSize: 'clamp(3rem, 8vw, 5rem)',
-                color: 'var(--p-trace-bright)',
+                width: '100%',
+                height: '100%',
+                objectFit: 'cover',
+                objectPosition: 'center 20%',
               }}
-            >
-              LC
-            </span>
+            />
           </div>
         </div>
       </div>
